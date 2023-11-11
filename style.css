@@ -4,38 +4,39 @@
     padding:0;
 }
 h1,h2{
-    color:green;
-    
+    color:black;
+    font-family:'Grenze', serif;
+    text-align:center;
 }
 body{
     background-color:#bccdcd;
-    tex-align:center;
-    
     
 }
 p{
     margin-top:60px;
     padding:12px;
     text-align:center;
-    font-size:18px;
+    font-size:12px;
 }
 section{
+    
     border: 1px solid black;
     background-color: #bbbbbb;
     width: 100%;
     height: 200px;
-    margin:8px;
-    font-family: Helvetica;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Grenze', serif;
     color: black;
     position:relative;
+    float:left;
 }
 #div1, #div2, #div3{
     text-align:center;
     height:40px;
     width:40%;
     border:1px solid black;
-    font-size:30px;
-    float:right;
+    font-size:24px;
     
 }
 #div1{
@@ -147,8 +148,9 @@ section{
     width: 100%;
   }
 }
+/********** Mobile **********/
 @media(max-width: 767px){
     section{
         width:100%;
     }
-}
+    }
